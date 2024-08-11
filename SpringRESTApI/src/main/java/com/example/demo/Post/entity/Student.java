@@ -40,9 +40,8 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", roll=" + roll + ", sub=" + Arrays.toString(sub)
-				+ ", getId()=" + getId() + ", getName()=" + getName() + ", getRoll()=" + getRoll() + ", getSub()="
-				+ Arrays.toString(getSub()) +  "]";
+		return "Student [id=" + id + ", name=" + name + ", roll=" + roll   + ", sub="
+				+ Arrays.toString(sub) + "]";
 	}
 	
 }
