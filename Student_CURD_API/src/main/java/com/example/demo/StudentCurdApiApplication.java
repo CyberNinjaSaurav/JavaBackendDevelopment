@@ -4,11 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringRestApIApplication {
+public class StudentCurdApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringRestApIApplication.class, args);
-		 System.out.println("Application is active!");
+		SpringApplication.run(StudentCurdApiApplication.class, args);
 	}
-      
+
 }
