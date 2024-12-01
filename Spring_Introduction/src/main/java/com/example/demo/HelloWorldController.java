@@ -11,6 +11,6 @@ public class HelloWorldController {
      
 	@RequestMapping(value = "/test")
 	public String test() {
-		return "Test API works";
+		return "Test API is working fine!";
 	}
 }

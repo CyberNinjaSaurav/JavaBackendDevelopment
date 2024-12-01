@@ -8,7 +8,8 @@ public class StudentCurdApiSbApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentCurdApiSbApplication.class, args);
-		System.out.println("This is workign");
+		System.out.println("Application is active now!");
+		
 	}
 
 }
